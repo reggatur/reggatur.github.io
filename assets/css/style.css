@@ -421,10 +421,16 @@ hr {
 .two-block-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   gap: 1rem;
-
   margin: 1.5rem 0;
+  align-items: stretch;
+}
+
+.two-block-row .row-image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -766,3 +772,4 @@ html[data-theme="light"] .header-graphic {
   }
 
 }
+
